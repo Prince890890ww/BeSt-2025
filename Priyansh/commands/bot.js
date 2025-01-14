@@ -50,7 +50,7 @@ if ((event.body.toLowerCase() == " كيوت") || (event.body.toLowerCase() == "�
    if ((event.body.toLowerCase() == "جيت") || (event.body.toLowerCase() == "سلام")) {
      return api.sendMessage("️منور", threadID, messageID);
    };
-   if ((event.body.toLowerCase() == "منوره ايلي") || (event.body.toLowerCase() == " منوره bot")) {
+   if ((event.body.toLowerCase() == "منوره ايلي") || (event.body.toLowerCase() == " منوره Bot")) {
      return api.sendMessage("️نورك الأصل الأصيل بلا منازع او مثيل 👀💞", threadID, messageID);
    };
    
@@ -75,7 +75,7 @@ if ((event.body.toLowerCase() == "كيفها حياتك ") || (event.body.toLowe
    };
    mess = "{name}"
   
-  if (event.body.indexOf("bot") == 0 || (event.body.indexOf("اكامي") == 0)) {
+  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("اكامي") == 0)) {
     var msg = {
       body: ` ${rand}`
     }
