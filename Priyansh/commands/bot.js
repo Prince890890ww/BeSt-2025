@@ -1,10 +1,10 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "goiBot",
+  name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
-  description: "goiBot",
+  description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
   cooldowns: 5,
@@ -17,7 +17,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
 
-  var tl = ["Haye Main Sadke jawa Teri Masoom Shakal pe baby 💋 " , "Bot Nah Bol Oye Janu bol Mujhe " , "Bar Bar Disturb Na KRr JaNu Ke SaTh Busy Hun 🤭🐒" , "Main gariboo se baat nahi karta 😉😝😋🤪" , "Itna Na Pass aa Pyar ho Jayga";
+  var tl = ["hyeeeee" , "baby " , "🙂🎧"];
  var rand = tl[Math.floor(Math.random() * tl.length)]
 
   if ((event.body.toLowerCase() == "مفتقدك") || (event.body.toLowerCase() == "حثتيني")) {
@@ -50,7 +50,7 @@ if ((event.body.toLowerCase() == " كيوت") || (event.body.toLowerCase() == "�
    if ((event.body.toLowerCase() == "جيت") || (event.body.toLowerCase() == "سلام")) {
      return api.sendMessage("️منور", threadID, messageID);
    };
-   if ((event.body.toLowerCase() == "منوره ايلي") || (event.body.toLowerCase() == " منوره Bot")) {
+   if ((event.body.toLowerCase() == "منوره ايلي") || (event.body.toLowerCase() == " منوره bot")) {
      return api.sendMessage("️نورك الأصل الأصيل بلا منازع او مثيل 👀💞", threadID, messageID);
    };
    
@@ -75,7 +75,7 @@ if ((event.body.toLowerCase() == "كيفها حياتك ") || (event.body.toLowe
    };
    mess = "{name}"
   
-  if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("اكامي") == 0)) {
+  if (event.body.indexOf("bot") == 0 || (event.body.indexOf("اكامي") == 0)) {
     var msg = {
       body: ` ${rand}`
     }
